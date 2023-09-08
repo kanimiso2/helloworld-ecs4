@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>golang_template</title>
+</head>
+<body>
+    <h1>占いアプリ</h1>
+    <h3>質問:{{.Question}}<h3>
+    <h3>占い結果:{{.Result}}</h3>
+    <form action="/" method="get">
+        <input type="submit" value="もう一度占う">
+    </form>
+</body>
+</html>
